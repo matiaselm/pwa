@@ -1,0 +1,72 @@
+@font-face {
+    font-family: seaside;
+    src: url('../fonts/seaside.ttf');
+}
+
+@font-face {
+    font-family: playfair;
+    src: url('../fonts/playfair.otf');
+}
+
+body {
+    font-family: playfair;
+}
+
+h1,
+h2,
+h3 {
+    font-family: seaside;
+    color: rgb(185, 184, 170);
+}
+
+p {
+    font-size: 24px;
+    color: rgb(185, 124, 124);
+}
+
+
+/* Make content area fill the entire browser window */
+
+html,
+.fullscreen {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(13, 9, 9);
+    z-index: -1;
+}
+
+#image {
+    position: absolute;
+    z-index: 0;
+    left: 2ch;
+    bottom: 2ch;
+    width: 70ch;
+    height: 70ch;
+    background-image: url('../images/ocean-view.jpg');
+    background-size: cover;
+}
+
+#source {
+    position: absolute;
+    font-size: small;
+    z-index: 1;
+    left: 3ch;
+    bottom: 3ch;
+}
+
+
+/* Center the content in the browser window */
+
+.container {
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+}
+
+.title {
+    font-size: 4rem;
+    z-index: 1;
+}
