@@ -1,3 +1,3 @@
 # pwa
 
-- [The site here](https://users.metropolia.fi/~matiasjj/pwa/)
+- [The page here](https://users.metropolia.fi/~matiasjj/pwa/)
